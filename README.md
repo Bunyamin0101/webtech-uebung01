@@ -1,4 +1,4 @@
-# Übungsblatt 01 – HTML & CSS (fertige Lösung)
+# Übungsblatt 01 – HTML & CSS 
 Lösungen zu den Aufgaben 01.1–01.4 (+ optional 01.5) aus dem Modul *Web-Technologien*.
 
 - **CC0 Bildmaterial** liegt unter `img/`.
