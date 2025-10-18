@@ -1,0 +1,2 @@
+All images in this folder are simple SVG placeholders created for this project.
+They are released under CC0 (public domain). You may copy, modify, and use them without attribution.

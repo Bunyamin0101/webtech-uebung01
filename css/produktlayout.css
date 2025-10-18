@@ -1,0 +1,18 @@
+:root { --prim: #0f6; --text: #222; --muted: #666; --bg: #f7f7f9; }
+* { box-sizing: border-box; }
+body { font-family: system-ui, Arial, sans-serif; color: var(--text); background: var(--bg); margin: 0; padding: 24px; }
+.page { max-width: 900px; margin: 0 auto; background: #fff; border-radius: 14px; padding: 24px; box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+.header { border-bottom: 2px solid var(--bg); margin-bottom: 16px; padding-bottom: 8px; }
+.badge { display: inline-block; font-size: 12px; letter-spacing: .04em; padding: 4px 8px; border-radius: 999px; background: #eefcf3; color: #0a7a3b; }
+.product { display: grid; grid-template-columns: 1fr 1.2fr; gap: 24px; align-items: start; }
+.product__media { border: 1px solid #eee; border-radius: 12px; overflow: hidden; background: #fafafa; }
+.product__media img { width: 100%; display: block; aspect-ratio: 4 / 3; object-fit: cover; }
+.product__title { margin: 0 0 6px; }
+.lead { color: var(--muted); margin: 0 0 16px; }
+.price { font-size: 24px; font-weight: 700; margin: 12px 0 24px; }
+.btn { display: inline-block; padding: 10px 16px; border-radius: 10px; background: var(--prim); color: #003b20; text-decoration: none; font-weight: 600; }
+.specs { margin-top: 24px; } .specs h2 { margin: 0 0 8px; } .specs ul { margin: 0; padding-left: 18px; } .specs li { margin: 6px 0; }
+@media (max-width: 720px) { .product { grid-template-columns: 1fr; } }
+/* Übung 01.2 – Media Query */
+p { width: 800px; background: #fffbe6; }
+@media (max-width: 480px) { p { font-size: 150%; width: 280px; background: #fff0b3; } }

@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #0d0d0f; color: #f2f2f7; font-family: system-ui, Arial, sans-serif; }
+.page { max-width: 1200px; margin: 0 auto; padding: 24px; }
+h1 { margin: 0 0 16px; }
+.grid { display: grid; grid-template-columns: repeat(6, 1fr); grid-template-rows: repeat(4, 160px); gap: 12px; }
+.tile { background: #1a1a1f; border-radius: 12px; overflow: hidden; display: grid; }
+.tile img { width: 100%; height: 100%; object-fit: cover; }
+.tile--wide { grid-column: span 2; }
+.tile--tall { grid-row: span 2; }
+@media (max-width: 900px) {
+  .grid { grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(6, 160px); }
+  .tile--wide, .tile--tall { grid-column: span 1; grid-row: span 1; }
+}
